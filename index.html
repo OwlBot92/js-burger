@@ -5,11 +5,86 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
-        <title>Document</title>
+        <title>Burger Totem</title>
     </head>
 
     <body>
+        
+
+        <div class="wrapper">
+
+            <!-- titolo pseudoBanner -->
+            <header class="padding10">
+                <h1>Create Your Burger</h1>
+            </header>
+
+
+            <!-- main content con i checkbox degli ingredienti -->
+            <main class="padding20">
+                <h2 class="padding-top-bot10">My Name</h2>
+                <h3 class="padding-top-bot10">Ingredients</h3>
+
+                <!-- ingredients list -->
+                <div>
+                    <ul>
+                        <li class="padding10">
+                            <img src="img/cheese.svg" alt="cheese icon">
+                            <label class="padding-right10 padding-left15" for="cheese">Cheese</label>
+                            <input type="checkbox" name="" id="cheese" value="1">
+                        </li>
+                        <li class="padding10">
+                            <img src="img/tomato.svg" alt="tomato icon">
+                            <label class="padding-right10 padding-left15" for="tomato">Tomato</label>
+                            <input type="checkbox" name="" id="tomato" value="0.50">
+                        </li>
+                        <li class="padding10">
+                            <img src="img/fried-egg (1).svg" alt="egg icon">
+                            <label class="padding-right10 padding-left15" for="egg">Egg</label>
+                            <input type="checkbox" name="" id="egg" value="2">
+                        </li>
+                        <li class="padding10">
+                            <img src="img/lettuce.svg" alt="lettuce icon">
+                            <label class="padding-right10 padding-left15" for="lettuce">Lettuce</label>
+                            <input type="checkbox" name="" id="lettuce" value="1">
+                        </li>
+                        <li class="padding10">
+                            <img src="img/mustard.svg" alt="mustard icon">
+                            <label class="padding-right10 padding-left15" for="mustard">Mustard</label>
+                            <input type="checkbox" name="" id="mustard" value="0.2">
+                        </li>
+                        <li class="padding10">
+                            <img src="img/ketchup.svg" alt="ketchup">
+                            <label class="padding-right10 padding-left15" for="ketchup">Ketchup</label>
+                            <input type="checkbox" name="" id="ketchup" value="0.2">
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- discount line -->
+                <div class="discount-box">
+                    <label for="">Discount Coupon</label>
+                    <input class="padding-left15" type="text" name="" id="" placeholder="12345ABCDEF">
+                </div>
+                <!-- bottone calcolo prezzo -->
+                <div class="btn-box">
+                    <button>Calculate</button>
+                </div>
+            </main>
+
+
+            <!-- footer che mostra il prezzo totale -->
+            <footer class="padding20">
+                <h3>Your Price</h3>
+                <h3>$ 54</h3>
+            </footer>
+
+        </div>
+
+
+
 
         <script src="js/script.js"></script>
     </body>
