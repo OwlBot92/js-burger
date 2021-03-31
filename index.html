@@ -25,7 +25,7 @@
 
             <!-- main content con i checkbox degli ingredienti -->
             <main class="padding20">
-                <h2 class="padding-top-bot10">Omega Burger</h2>
+                <input id="user-burger" type="text" placeholder="Name your burger">
                 <h3 class="padding-top-bot10">Ingredients</h3>
 
                 <!-- ingredients list -->
@@ -34,32 +34,32 @@
                         <li class="padding-top-bot-right">
                             <img src="img/cheese.svg" alt="cheese icon">
                             <label for="cheese">Cheese<br>1$</label>
-                            <input class="check-value" type="checkbox" name="" id="cheese" value="1">
+                            <input id="check1" class="check-value" type="checkbox" name="" id="cheese" value="1">
                         </li>
                         <li class="padding-top-bot-right">
                             <img src="img/tomato.svg" alt="tomato icon">
                             <label for="tomato">Tomato<br>0.50$</label>
-                            <input class="check-value" type="checkbox" name="" id="tomato" value="0.50">
+                            <input id="check2" class="check-value" type="checkbox" name="" id="tomato" value="0.50">
                         </li>
                         <li class="padding-top-bot-right">
                             <img src="img/fried-egg (1).svg" alt="egg icon">
                             <label for="egg">Eggs<br>2$</label>
-                            <input class="check-value" type="checkbox" name="" id="egg" value="2">
+                            <input id="check3" class="check-value" type="checkbox" name="" id="egg" value="2">
                         </li>
                         <li class="padding-top-bot-right">
                             <img src="img/lettuce.svg" alt="lettuce icon">
                             <label for="lettuce">Lettuce<br>1$</label>
-                            <input class="check-value" type="checkbox" name="" id="lettuce" value="1">
+                            <input id="check4" class="check-value" type="checkbox" name="" id="lettuce" value="1">
                         </li>
                         <li class="padding-top-bot-right">
                             <img src="img/mustard.svg" alt="mustard icon">
                             <label for="mustard">Mustard<br>0.20$</label>
-                            <input class="check-value" type="checkbox" name="" id="mustard" value="0.2">
+                            <input id="check5" class="check-value" type="checkbox" name="" id="mustard" value="0.2">
                         </li>
                         <li class="padding-top-bot-right">
                             <img src="img/ketchup.svg" alt="ketchup">
                             <label for="ketchup">Ketchup<br>0.20$</label>
-                            <input class="check-value" type="checkbox" name="" id="ketchup" value="0.2">
+                            <input id="check6" class="check-value" type="checkbox" name="" id="ketchup" value="0.2">
                         </li>
                     </ul>
                 </div>
@@ -71,7 +71,8 @@
                 </div>
                 <!-- bottone calcolo prezzo -->
                 <div class="btn-box">
-                    <button id = "btn-calc">Calculate</button>
+                    <button id = "btn-coupon">Apply Coupon</button>
+                    <button id="btn-order">Order Now</button>
                 </div>
             </main>
 

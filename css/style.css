@@ -1,3 +1,9 @@
+
+/* aggiungere classi per la dark mode */
+
+/* ATTRIBUTE 
+Hey! Remember you have to attribute Freepik for svg icon*/
+
 *{
     margin: 0;
     padding: 0;
@@ -75,6 +81,17 @@ main{
     height: calc(100vh - 180px);
     overflow-y: auto;
 }
+
+#user-burger{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    padding: 10px 0;
+    font-weight: 600;
+    outline: none;
+}
+
 ul{
     display: flex;
     flex-wrap: wrap;
@@ -114,10 +131,12 @@ li img{
 .btn-box{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
     padding-bottom: 40px;
+    padding-top: 30px;
 }
-.btn-box button{
+.btn-box button{width: 200px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 15px;
@@ -127,6 +146,7 @@ li img{
     border: 1px solid  #fd7e40;
     border-radius: 5px;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
 
