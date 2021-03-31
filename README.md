@@ -1,7 +1,7 @@
 # BURGER Totem App
 
 ## Quick Demo
-![Gif](/readme-files/burger-gif.gif "Quick gif demo")
+![Gif](/readme-files/burger-totem-gif.gif "Quick gif demo")
 
 ## Big Screens, Tablet like
 ![Standard](/readme-files/burger-totem.png "Big Screens Version")
